@@ -18,6 +18,10 @@ body
 	background-repeat: repeat-x;
 	background-image: url("img/header.png");
 	height: 60px;
+	position: fixed;
+	top: 0px;
+	display: block;
+	width: 100%;
 }
 
 h1
@@ -32,8 +36,7 @@ h1
 
 .content
 {
-	width: 95%;
-	margin: 20px 10px;
+	margin: 80px 5px;
 	text-align: center;
 }
 
