@@ -1,4 +1,6 @@
 document.addEventListener("deviceready", onDeviceReady, false);
+//Activate :active state on device
+document.addEventListener("touchstart", function() {}, false);
 
 function onDeviceReady() {
 	var accelerometerHelper = new AccelerometerApp();
