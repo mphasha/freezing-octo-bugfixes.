@@ -15,7 +15,7 @@
     <AndroidVersionCode>1</AndroidVersionCode>
     <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
     <iOSBackgroundMode />
-    <CorePlugins>org.apache.cordova.core.device;org.apache.cordova.core.device-motion;org.apache.cordova.core.device-orientation</CorePlugins>
+    <CorePlugins>org.apache.cordova.core.device;org.apache.cordova.core.device-motion;org.apache.cordova.core.device-orientation;org.apache.cordova.core.AudioHandler</CorePlugins>
     <FrameworkVersion>3.0.0</FrameworkVersion>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
