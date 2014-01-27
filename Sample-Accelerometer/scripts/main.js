@@ -82,7 +82,7 @@ AccelerometerApp.prototype = {
 	//Failed to get the acceleration
 	_onAccelerometerError: function(error) {
         //check if we're running in simulator
-        if (device.uuid == "e0101010d38bde8e6740011221af335301010333" || device.uuid == "e0908060g38bde8e6740011221af335301010333")
+        if (window.navigator.simulator === true)
         {
             alert(error);
             this._stopWatch.apply(this, arguments);
